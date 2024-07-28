@@ -40,9 +40,9 @@ int main()
     int circleD{circleY + radius};
 
     //Rectangle Collision
-    int rectangleL{rectangleX - rectangleWidth};
+    int rectangleL{rectangleX};
     int rectangleR{rectangleX + rectangleWidth};
-    int rectangleU{rectangleY - rectangleHeight};
+    int rectangleU{rectangleY};
     int rectangleD{rectangleY + rectangleHeight};
 
     // Collision with Axe
